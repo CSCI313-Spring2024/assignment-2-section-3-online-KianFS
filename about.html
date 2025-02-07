@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <!-- Bootstrap CSS (v4) -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      /* Custom styles for a unique look */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.25rem; /* Increase base font size */
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-weight: 700;
+      }
+
+      /* Optional: Subtle background color for the page */
+      body {
+        background-color: #f8f9fa;
+      }
+
+      .section-title {
+        border-left: 4px solid #007bff;
+        padding-left: 1rem; /* Adjust padding */
+        margin-bottom: 2rem; /* Adjust margin */
+        font-weight: 600;
+      }
+
+      /* Cards in Work Experience & Education */
+      .experience-card {
+        border-left: 5px solid #007bff;
+        padding: 1.5rem; /* Adjust padding */
+      }
+      .experience-card h5 {
+        font-weight: 600;
+      }
+      .experience-card ul {
+        margin-bottom: 0;
+      }
+
+      /* Skills chips styling */
+      .skill-badge {
+        margin: 0.5rem; /* Adjust margin */
+        font-size: 1rem; /* Adjust font size */
+        font-weight: 500;
+      }
+
+      /* Language progress or styling if needed */
+      .language-item {
+        margin-bottom: 1rem; /* Adjust margin */
+      }
+      .language-level {
+        font-weight: 600;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-size: 2rem">My Site</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="index.html"
+                  style="font-size: 1.5rem; margin-right: 1.5rem"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="about.html"
+                  style="font-size: 1.5rem; margin-right: 1.5rem"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="portfolio.html"
+                  style="font-size: 1.5rem; margin-right: 1.5rem"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="contact.html"
+                  style="font-size: 1.5rem; margin-right: 1.5rem"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+      <!-- Intro / About -->
+      <div class="row">
+        <div class="col">
+          <h1 class="mb-3">About Me</h1>
+          <p class="lead">
+            I’m passionate about computer science, research, and transforming
+            ideas into impactful solutions. Through my academic and professional
+            journey, I’ve cultivated skills in software development, data
+            science, and machine learning—all while staying curious about the
+            next big breakthrough. Below is a snapshot of my experiences,
+            education, and skill set.
+          </p>
+        </div>
+      </div>
+
+      <!-- Work Experience -->
+      <div class="row mt-5">
+        <div class="col">
+          <h2 class="section-title">Work Experience</h2>
+
+          <!-- 1) Entrepreneurial Lead, NSF I-Corps -->
+          <div class="card mb-4 experience-card">
+            <div class="card-body">
+              <h5 class="card-title">
+                Entrepreneurial Lead, NSF I-Corps Program; Great Plains Hub
+              </h5>
+              <h6 class="card-subtitle text-muted">11/10/2024 - Present</h6>
+              <ul class="mt-3">
+                <li>
+                  Led efforts to identify market opportunities and validate
+                  business concepts.
+                </li>
+                <li>
+                  Conducted over 20 customer discovery interviews to understand
+                  user needs and industry trends.
+                </li>
+                <li>
+                  Analyzed feedback to refine value propositions and align
+                  product development with market demands.
+                </li>
+                <li>
+                  Collaborated with team members and mentors to develop a
+                  business model leveraging interview insights.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 2) Research Assistant, NDSU -->
+          <div class="card mb-4 experience-card">
+            <div class="card-body">
+              <h5 class="card-title">
+                Research Assistant, North Dakota State University; Fargo-ND
+              </h5>
+              <h6 class="card-subtitle text-muted">01/2024 - Present</h6>
+              <ul class="mt-3">
+                <li>
+                  Analyzed SPP power outage records to uncover causes, urgency,
+                  and duration.
+                </li>
+                <li>
+                  Performed data cleaning, ingestion, and transformation to
+                  prepare datasets for analysis.
+                </li>
+                <li>
+                  Applied advanced statistical techniques (e.g. correlation
+                  analysis) to identify outage patterns.
+                </li>
+                <li>
+                  Utilized Python, Pandas, NumPy, and Seaborn for data
+                  visualization and interpretation.
+                </li>
+                <li>
+                  Developing machine learning models for predictive analysis to
+                  forecast outage events.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 3) Laboratory Assistant, NDSU (Joint Project) -->
+          <div class="card mb-4 experience-card">
+            <div class="card-body">
+              <h5 class="card-title">
+                Laboratory Assistant, NDSU (Joint Project with Stevens Institute
+                of Technology)
+              </h5>
+              <h6 class="card-subtitle text-muted">01/2024 - Present</h6>
+              <ul class="mt-3">
+                <li>
+                  Conducted lab tests on pipeline inspection gauges, evaluating
+                  defect detection capabilities.
+                </li>
+                <li>
+                  Collaborated with the design team to improve reliability and
+                  functionality based on test results.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 4) Undergraduate Researcher, NDSU -->
+          <div class="card mb-4 experience-card">
+            <div class="card-body">
+              <h5 class="card-title">
+                Undergraduate Researcher, North Dakota State University;
+                Fargo-ND
+              </h5>
+              <h6 class="card-subtitle text-muted">Summer of 2024</h6>
+              <ul class="mt-3">
+                <li>
+                  Contributed to a team building a framework for traffic sign
+                  retroreflectivity analysis with LiDAR techniques.
+                </li>
+                <li>
+                  Designed a CNN model to predict retroreflectivity values,
+                  improving traffic sign management.
+                </li>
+                <li>
+                  Prepared and processed image data with TensorFlow and OpenCV
+                  for model evaluation.
+                </li>
+                <li>
+                  Addressed challenges in LiDAR data preprocessing, including
+                  object detection and intensity calibration.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="row mt-5">
+        <div class="col">
+          <h2 class="section-title">Education</h2>
+          <div class="card mb-3 experience-card">
+            <div class="card-body">
+              <h5 class="card-title">
+                North Dakota State University; Fargo-ND — Bachelor’s of Computer
+                Science
+              </h5>
+              <h6 class="card-subtitle text-muted">2023 - 2025</h6>
+              <p class="mt-2 mb-0">GPA: 3.91 / 4.0</p>
+            </div>
+          </div>
+
+          <div class="card mb-3 experience-card">
+            <div class="card-body">
+              <h5 class="card-title">
+                Izmir University of Economics; Izmir-Turkey — Bachelor’s of
+                Software Engineering
+              </h5>
+              <h6 class="card-subtitle text-muted">2021 - 2023</h6>
+              <p class="mt-2 mb-0">GPA: 3.7 / 4.0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills & Languages -->
+      <div class="row mt-5">
+        <!-- Skills Column -->
+        <div class="col-md-6">
+          <h2 class="section-title">Skills</h2>
+          <div class="mb-3">
+            <!-- Example "chips" for each skill -->
+            <span class="badge badge-primary skill-badge">Python</span>
+            <span class="badge badge-info skill-badge">Java</span>
+            <span class="badge badge-success skill-badge">C++</span>
+            <span class="badge badge-warning skill-badge">JavaScript</span>
+            <span class="badge badge-secondary skill-badge">HTML</span>
+            <span class="badge badge-secondary skill-badge">CSS</span>
+            <span class="badge badge-secondary skill-badge">SQL</span>
+            <span class="badge badge-secondary skill-badge">Bootstrap</span>
+            <span class="badge badge-secondary skill-badge">Webpack</span>
+            <span class="badge badge-secondary skill-badge">Azure</span>
+            <span class="badge badge-secondary skill-badge">Git</span>
+            <!-- Add or remove as needed -->
+          </div>
+        </div>
+
+        <!-- Languages Column -->
+        <div class="col-md-6">
+          <h2 class="section-title">Languages</h2>
+          <ul class="list-unstyled">
+            <li class="language-item">
+              <strong>English:</strong>
+              <span class="language-level">Full professional proficiency</span>
+            </li>
+            <li class="language-item">
+              <strong>Persian:</strong>
+              <span class="language-level">Native</span>
+            </li>
+            <li class="language-item">
+              <strong>Spanish:</strong>
+              <span class="language-level">Elementary proficiency</span>
+            </li>
+            <li class="language-item">
+              <strong>Turkish:</strong>
+              <span class="language-level">Elementary proficiency</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Certificates -->
+      <div class="row mt-5">
+        <div class="col">
+          <h2 class="section-title">Certificates</h2>
+          <ul>
+            <li>Introduction to Cyber Security (Google-Coursera)</li>
+            <li>Manage Security Risks (Google-Coursera)</li>
+            <li>Data Science for Math Skills (Duke University-Coursera)</li>
+            <li>
+              Introduction to VR and 360º Video Production (Google-Coursera)
+            </li>
+            <li>Introduction to Augmented Reality (Google-Coursera)</li>
+            <li>
+              Divide and Conquer, Sorting (Course detail not fully provided)
+            </li>
+            <!-- Add or revise as needed -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center p-3">
+      <p class="mb-0">&copy; 2025 Kian Ansari. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies (v4) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
